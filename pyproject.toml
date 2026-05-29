@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gic"
+version = "1.0.0"
+description = "A Python library for integrating regulatory chemical lists into a unified global inventory for analysis, comparison, screening and prioritisation."
+requires-python = ">=3.11"
+dependencies = [
+  "openpyxl>=3.1,<4",
+  "pypdf>=6.10.2,<7",
+  "rdkit>=2026.3,<2027",
+]
+authors = [
+  {name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au"},
+]
+maintainers = [
+  {name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au"},
+]
+keywords = [
+  "chemicals",
+  "inventory",
+  "regulatory",
+  "data integration",
+  "data analysis",
+  "cheminformatics",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://github.com/envris/global-inventory-compiler"
+Repository = "https://github.com/envris/global-inventory-compiler.git"
+Issues = "https://github.com/envris/global-inventory-compiler/issues"
+
+[project.scripts]
+gic-build = "gic.workflows.build:main"
+gic-stats = "gic.workflows.stats:main"
+gic-gremlins = "gic.workflows.gremlins:main"
+
+[dependency-groups]
+dev = [
+  "pip-audit",
+  "pip-licenses",
+  "pyright",
+  "pytest",
+  "pytest-cov",
+  "ruff",
+]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+addopts = "-vv --cov=src/gic --cov-report=xml:cov.xml"
+
+[tool.pyright]
+include = ["src"]
+exclude = ["**/.venv", "**/__pycache__"]
+typeCheckingMode = "basic"
+pythonVersion = "3.11"
+reportMissingTypeStubs = false
+venvPath = "."
+venv = ".venv"

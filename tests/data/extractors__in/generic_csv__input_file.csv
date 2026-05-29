@@ -1,0 +1,6 @@
+# Non-data row
+# Non-data row
+EC Number,GHS Codes,Test Comment
+404-950-0,H250;H260;H314,good row
+440-620-2,H250 ; H260 ; H336 ; H314 ; H400 ; H410,handles extra spaces
+231-150-8,H350i,H330,H301,H335,H372,H372,H319,H317,excludes bad EC number and logs error for no valid identifiers

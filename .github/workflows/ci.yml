@@ -1,0 +1,177 @@
+# Runs on push to main and on pull requests targeting main. The test job
+# is the merge gate. It runs lint, format, and tests across the full OS
+# and Python matrix. The audit, typecheck, and coverage jobs run in
+# parallel and never block. They publish their findings to the workflow
+# summary, a sticky PR comment, and an uploaded artifact.
+
+name: Python package
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+env:
+  CASCC_API_KEY: ${{ secrets.CASCC_API_KEY }}
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ["ubuntu-latest", "windows-latest", "macos-latest"]
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+          python-version: ${{ matrix.python-version }}
+
+      - name: Sync dependencies (locked)
+        run: uv sync --locked --all-extras --all-groups
+
+      - name: Lint with Ruff
+        run: uv run ruff check .
+
+      - name: Format check with Ruff
+        run: uv run ruff format --check .
+
+      - name: Test with pytest
+        run: uv run pytest
+
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Sync dev tooling
+        run: uv sync --locked --all-extras --group dev
+
+      - name: Run dependency audit
+        run: bash scripts/audit-deps.sh
+
+      - name: Render audit and license findings
+        run: uv run python scripts/render-audit.py --output audit-summary.md
+
+      - name: Append findings to workflow summary
+        run: cat audit-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Post sticky PR comment with findings
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: bash scripts/post-pr-comment.sh "<!-- ci/audit -->" audit-summary.md
+
+      - name: Upload audit artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-results
+          path: |
+            audit.json
+            licenses.json
+            audit-summary.md
+            requirements-audit.txt
+          if-no-files-found: warn
+
+  typecheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Sync dev tooling
+        run: uv sync --locked --all-extras --group dev
+
+      - name: Run pyright
+        run: uv run pyright --outputjson > pyright.json || true
+
+      - name: Render type-check findings
+        run: uv run python scripts/render-typecheck.py --output typecheck-summary.md
+
+      - name: Append findings to workflow summary
+        run: cat typecheck-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Post sticky PR comment with findings
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: bash scripts/post-pr-comment.sh "<!-- ci/typecheck -->" typecheck-summary.md
+
+      - name: Upload typecheck artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: typecheck-results
+          path: |
+            pyright.json
+            typecheck-summary.md
+          if-no-files-found: warn
+
+  coverage:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Sync dev tooling
+        run: uv sync --locked --all-extras --group dev
+
+      - name: Run tests with coverage
+        run: uv run pytest
+
+      - name: Render coverage summary
+        run: bash scripts/render-coverage.sh coverage-summary.md
+
+      - name: Append findings to workflow summary
+        run: cat coverage-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Post sticky PR comment with coverage
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: bash scripts/post-pr-comment.sh "<!-- ci/coverage -->" coverage-summary.md
+
+      - name: Upload coverage artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-results
+          path: |
+            cov.xml
+            coverage-summary.md
+          if-no-files-found: warn

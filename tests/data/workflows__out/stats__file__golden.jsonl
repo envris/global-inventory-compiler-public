@@ -1,0 +1,20 @@
+Statistic,Value,Percent
+Total Substances,196,100.0
+Unique chemical_names,343,100.0
+Unique cids,232,100.0
+Unique ec_numbers,101,100.0
+Substances with one chemical_name,121,61.7
+Substances with multiple chemical_names,25,12.8
+Substances with one cid,181,92.3
+Substances with multiple cids,3,1.5
+Substances without ec_numbers,108,55.1
+Substances with one ec_number,84,42.9
+Substances with multiple ec_numbers,3,1.5
+Substances with only chemical_names,0,0.0
+Substances with only cids,0,0.0
+Substances with only ec_numbers,0,0.0
+Substances in exactly one list,103,52.6
+Substances in exactly two lists,49,25.0
+Substances in exactly three lists,27,13.8
+Substances in exactly four lists,17,8.7
+Substances in five or more lists,0,0.0

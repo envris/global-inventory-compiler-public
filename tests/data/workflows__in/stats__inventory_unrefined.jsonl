@@ -1,0 +1,197 @@
+{"list_data": {"1": "EU-REACH_R", "2": "AU-AIIC", "3": "US-TSCA", "4": "CA-DSL"}}
+{"1": {"chemical_name": {"Formaldehyde": [1, 2, 3, 4]}, "ec_number": {"200-001-8": [1]}, "cid": {"CID712": [1, 2, 3, 4]}}}
+{"2": {"chemical_name": {"Guanidinium chloride": [1], "Guanidine, monohydrochloride": [2, 4], "Guanidine, hydrochloride (1:1)": [3]}, "ec_number": {"200-002-3": [1]}, "cid": {"CID5742": [1, 2, 3, 4]}}}
+{"3": {"chemical_name": {"Dexamethasone": [1], "Pregna-1,4-diene-3,20-dione, 9-fluoro-11,17,21-trihydroxy-16-methyl-, (11.beta.,16.alpha.)-": [3]}, "ec_number": {"200-003-9": [1]}, "cid": {"CID5743": [1, 3], "CID6432476": [3]}}}
+{"4": {"chemical_name": {"Hydrocortisone 21-acetate": [1], "Pregn-4-ene-3,20-dione, 21-(acetyloxy)-11,17-dihydroxy-, (11.beta.)-": [2], "Pregn-4-ene-3,20-dione, 21-(acetyloxy)-11,17-dihydroxy-, (11\u03b2)-": [4]}, "ec_number": {"200-004-4": [1]}, "cid": {"CID5744": [1, 2, 4]}}}
+{"5": {"chemical_name": {"Cortisone 21-acetate": [1], "Pregn-4-ene-3,11,20-trione, 21-(acetyloxy)-17-hydroxy-": [4]}, "ec_number": {"200-006-5": [1]}, "cid": {"CID5745": [1, 4]}}}
+{"6": {"chemical_name": {"Phenobarbital": [1], "2,4,6(1H,3H,5H)-Pyrimidinetrione, 5-ethyl-5-phenyl-": [4]}, "ec_number": {"200-007-0": [1]}, "cid": {"CID4763": [1, 4]}}}
+{"7": {"chemical_name": {"3,3'-iminodi(propylamine)": [1], "1,3-Propanediamine, N-(3-aminopropyl)-": [2, 4], "Lactic acid": [1], "Propanoic acid, 2-hydroxy-": [2, 3, 4], "Propanoic acid, 2-hydroxy-, (\u00b1)-": [4], "Hydrocortisone": [1], "Pregn-4-ene-3,20-dione, 11,17,21-trihydroxy-, (11.beta.)-": [2, 3], "Pregn-4-ene-3,20-dione, 11,17,21-trihydroxy-, (11\u03b2)-": [4], "Glycerol trinitrate": [1], "1,2,3-Propanetriol, trinitrate": [2, 4], "1,2,3-Propanetriol, 1,2,3-trinitrate": [3], "3-Pyridinecarboxylic acid, sodium salt": [2], "3-Pyridinecarboxylic acid, sodium salt (1:1)": [3], "gremlin3": [2], "Phenol, 4-amino-, hydrochloride": [2, 4], "Phenol, 4-amino-, hydrochloride (1:1)": [3], "Mercurate(1-), ethyl(2-mercaptobenzoato(2-)-O,S)-, sodium": [2], "Mercurate(1-), ethyl[2-(mercapto-.kappa.S)benzoato(2-)-.kappa.O]-, sodium (1:1)": [3], "Mercurate(1-), ethyl[2-mercaptobenzoato(2-)-O,S]-, sodium": [4], "4-aminobutyric acid": [1], "Butanoic acid, 4-amino-": [2], "Caffeine": [1], "1H-Purine-2,6-dione, 3,7-dihydro-1,3,7-trimethyl-": [2], "D-ribose": [1], "D-Ribose": [2, 3, 4]}, "ec_number": {"200-261-2": [1], "200-018-0": [1], "200-020-1": [1], "200-240-8": [1], "200-258-6": [1], "200-362-1": [1], "200-059-4": [1]}, "cid": {"CID5942": [1, 2, 4], "CID612": [1, 2, 3, 4], "CID5754": [1, 2, 3, 4], "CID4510": [1, 2, 3, 4], "CID23687810": [2, 3], "CID5828": [2, 3, 4], "CID16684434": [2, 3, 4], "CID119": [1, 2], "CID223130": [1], "CID2519": [1, 2], "CID10975657": [1, 2, 3, 4]}}}
+{"8": {"chemical_name": {"Prednisolone": [1], "Pregna-1,4-diene-3,20-dione, 11,17,21-trihydroxy-, (11.beta.)-": [3], "Pregna-1,4-diene-3,20-dione, 11,17,21-trihydroxy-, (11\u03b2)-": [4]}, "ec_number": {"200-021-7": [1]}, "cid": {"CID5755": [1, 3, 4]}}}
+{"9": {"chemical_name": {"Estradiol": [1], "Estra-1,3,5(10)-triene-3,17-diol (17\u03b2)-": [4]}, "ec_number": {"200-023-8": [1]}, "cid": {"CID5757": [1, 4]}}}
+{"10": {"chemical_name": {"2,3-dichlorobenzoic acid": [1], "Benzoic acid, 2,3-dichloro-": [2, 3]}, "ec_number": {"200-039-5": [1]}, "cid": {"CID5765": [1, 2, 3]}}}
+{"11": {"chemical_name": {"Desipramine": [1]}, "ec_number": {"200-040-0": [1]}, "cid": {"CID2995": [1]}}}
+{"12": {"chemical_name": {"Amitriptyline": [1], "1-Propanamine, 3-(10,11-dihydro-5H-dibenzo[a,d]cyclohepten-5-ylidene)-N,N-dimethyl-": [4]}, "ec_number": {"200-041-6": [1]}, "cid": {"CID2160": [1, 4]}}}
+{"13": {"chemical_name": {"Imipramine": [1]}, "ec_number": {"200-042-1": [1]}, "cid": {"CID3696": [1]}}}
+{"14": {"chemical_name": {"Thioridazine": [1], "10H-Phenothiazine, 10-[2-(1-methyl-2-piperidinyl)ethyl]-2-(methylthio)-": [4]}, "ec_number": {"200-044-2": [1]}, "cid": {"CID5452": [1, 4]}}}
+{"15": {"chemical_name": {"Chlorpromazine": [1], "10H-Phenothiazine-10-propanamine, 2-chloro-N,N-dimethyl-": [4]}, "ec_number": {"200-045-8": [1]}, "cid": {"CID2726": [1, 4]}}}
+{"16": {"chemical_name": {"O-acetylsalicylic acid": [1], "Benzoic acid, 2-(acetyloxy)-": [2, 3, 4]}, "ec_number": {"200-064-1": [1]}, "cid": {"CID2244": [1, 2, 3, 4]}}}
+{"17": {"chemical_name": {"2-hydroxy-p-toluic acid": [1], "Benzoic acid, 2-hydroxy-4-methyl-": [2, 4]}, "ec_number": {"200-068-3": [1]}, "cid": {"CID5788": [1, 2, 4]}}}
+{"18": {"chemical_name": {"Thymidine": [1, 2, 3, 4], "gremlin2": [2], "Glycerol": [1], "1,2,3-Propanetriol": [2, 4], "N-amidinosarcosine": [1], "Glycine, N-(aminoiminomethyl)-N-methyl-": [2], "Chlorbutanol": [1], "2-Propanol, 1,1,1-trichloro-2-methyl-": [2], "1,2-Benzenediol, 4-[1-hydroxy-2-(methylamino)ethyl]-, (R)-,[R-(R*,R*)]-2,3-dihydroxybutanedioate (1:1) (salt)": [2], "1,2-Benzenediol, 4-[1-hydroxy-2-(methylamino)ethyl]-, (R)-, [R-(R,R)]-2,3-dihydroxybutanedioate (1:1) (salt)": [4]}, "ec_number": {"200-070-4": [1], "200-289-5": [1], "200-306-6": [1], "200-317-6": [1]}, "cid": {"CID5789": [1, 2, 3, 4], "CID753": [1, 2, 4], "CID586": [1, 2], "CID5977": [1, 2], "CID5815": [2, 4]}}}
+{"19": {"chemical_name": {"\u03b1-phenyl-1H-benzimidazole-2-methanol": [1]}, "ec_number": {"200-073-0": [1]}, "cid": {"CID5792": [1]}}}
+{"20": {"chemical_name": {"Ephedrine hydrochloride": [1], "Benzenemethanol, .alpha.-[(1S)-1-(methylamino)ethyl]-, hydrochloride (1:1), (.alpha.R)-": [3], "Benzenemethanol, \u03b1-[1-(methylamino)ethyl]-, hydrochloride, [R-(R,S)]-": [4]}, "ec_number": {"200-074-6": [1]}, "cid": {"CID65326": [1, 3, 4]}}}
+{"21": {"chemical_name": {"2-(2-butoxyethoxy)ethyl 6-propylpiperonyl ether": [1], "1,3-Benzodioxole, 5-[[2-(2-butoxyethoxy)ethoxy]methyl]-6-propyl-": [2, 3, 4]}, "ec_number": {"200-076-7": [1]}, "cid": {"CID5794": [1, 2, 3, 4]}}}
+{"22": {"chemical_name": {"Procaine hydrochloride": [1], "Benzoic acid, 4-amino-, 2-(diethylamino)ethyl ester, hydrochloride (1:1)": [3], "Benzoic acid, 4-amino-, 2-(diethylamino)ethyl ester, monohydrochloride": [4]}, "ec_number": {"200-077-2": [1]}, "cid": {"CID5795": [1, 3, 4]}}}
+{"23": {"chemical_name": {"Benzimidazole": [1], "1H-Benzimidazole": [2, 3]}, "ec_number": {"200-081-4": [1]}, "cid": {"CID5798": [1, 2, 3]}}}
+{"24": {"chemical_name": {"Fluorouracil": [1], "2,4(1H,3H)-Pyrimidinedione, 5-fluoro-": [3]}, "ec_number": {"200-085-6": [1]}, "cid": {"CID3385": [1, 3]}}}
+{"25": {"chemical_name": {"2,4-dinitrophenol": [1], "Phenol, 2,4-dinitro-": [2, 3, 4]}, "ec_number": {"200-087-7": [1]}, "cid": {"CID1493": [1, 2, 3, 4]}}}
+{"26": {"chemical_name": {"Hyoscine": [1], "Benzeneacetic acid, \u03b1-(hydroxymethyl)-, (1\u03b1,2\u03b2,4\u03b2,5\u03b1,7\u03b2)-9-methyl-3-oxa-9-azatricyclo[3.3.1.02,4]non-7-yl ester, (\u03b1S)-": [4]}, "ec_number": {"200-090-3": [1]}, "cid": {"CID131632305": [1, 4], "CID3000322": [1]}}}
+{"27": {"chemical_name": {"L-4-hydroxyproline": [1], "L-Proline, 4-hydroxy-, (4R)-": [2, 3], "2-Proline, 4-hydroxy-, trans-": [4]}, "ec_number": {"200-091-9": [1]}, "cid": {"CID5810": [1, 2, 3, 4]}}}
+{"28": {"chemical_name": {"3,5-dichlorobenzoic acid": [1], "Benzoic acid, 3,5-dichloro-": [3]}, "ec_number": {"200-092-4": [1]}, "cid": {"CID5811": [1, 3]}}}
+{"29": {"chemical_name": {"DL-thyroxin": [1], "L-Tyrosine, O-(4-hydroxy-3,5-diiodophenyl)-3,5-diiodo-": [3], "2-Tyrosine, O-(4-hydroxy-3,5-diiodophenyl)-3,5-diiodo-": [4]}, "ec_number": {"200-101-1": [1]}, "cid": {"CID5819": [1, 3, 4]}}}
+{"30": {"chemical_name": {"Dexamphetamine": [1], "Benzeneethanamine, .alpha.-methyl-, (.alpha.S)-": [3]}, "ec_number": {"200-112-1": [1]}, "cid": {"CID5826": [1, 3]}}}
+{"31": {"chemical_name": {"4-(2-aminoethyl)phenol": [1], "Phenol, 4-(2-aminoethyl)-": [2]}, "ec_number": {"200-115-8": [1]}, "cid": {"CID5610": [1, 2]}}}
+{"32": {"chemical_name": {"N,N,N',N'-tetramethylmethylenediamine": [1], "Methanediamine, N,N,N',N'-tetramethyl-": [3]}, "ec_number": {"200-124-7": [1]}, "cid": {"CID5829": [1, 3]}}}
+{"33": {"chemical_name": {"Morphine hydrochloride": [1], "Morphinan-3,6-diol, 7,8-didehydro-4,5-epoxy-17-methyl-(5\u03b1,6\u03b1)-, hydrochloride": [4]}, "ec_number": {"200-136-2": [1]}, "cid": {"CID5464110": [1, 4]}}}
+{"34": {"chemical_name": {"Bronopol": [1], "1,3-Propanediol, 2-bromo-2-nitro-": [2, 3, 4]}, "ec_number": {"200-143-0": [1]}, "cid": {"CID2450": [1, 2, 3, 4]}}}
+{"35": {"chemical_name": {"Cysteine hydrochloride": [1], "L-Cysteine, hydrochloride": [2], "L-Cysteine, hydrochloride (1:1)": [3], "2-Cysteine, hydrochloride": [4]}, "ec_number": {"200-157-7": [1]}, "cid": {"CID60960": [1, 2, 3, 4]}}}
+{"36": {"chemical_name": {"L-cysteine": [1], "L-Cysteine": [2, 3], "2-Cysteine": [4], "Cysteine": [4]}, "ec_number": {"200-158-2": [1]}, "cid": {"CID5862": [1, 2, 3, 4], "CID594": [4]}}}
+{"37": {"chemical_name": {"Estrone": [1], "Estra-1,3,5(10)-trien-17-one, 3-hydroxy-": [3]}, "ec_number": {"200-164-5": [1]}, "cid": {"CID5870": [1, 3]}}}
+{"38": {"chemical_name": {"Methylprednisolone 21-acetate": [1], "Pregna-1,4-diene-3,20-dione, 21-(acetyloxy)-11,17-dihydroxy-6-methyl-, (6\u03b1,11\u03b2)-": [4]}, "ec_number": {"200-171-3": [1]}, "cid": {"CID5877": [1, 4]}}}
+{"39": {"chemical_name": {"Prasterone": [1]}, "ec_number": {"200-175-5": [1]}, "cid": {"CID5881": [1]}}}
+{"40": {"chemical_name": {"Nadide": [1], "Adenosine 5'-(trihydrogen diphosphate), 5'.fwdarw.5'-ester with 3-(aminocarbonyl)-1-.beta.-D-ribofuranosylpyridinium hydroxide, inner salt": [2], "Adenosine 5'-(trihydrogen diphosphate), P'.fwdarw.5'-ester with 3-(aminocarbonyl)-1-.beta.-D-ribofuranosylpyridinium, inner salt": [3], "Adenosine 5'-(trihydrogen diphosphate), P'\u2192'-ester with 3-(aminocarbonyl)-1-\u03b2-D-ribofuranosylpyridinium hydroxide, inner salt": [4]}, "ec_number": {"200-184-4": [1]}, "cid": {"CID5892": [1, 2, 3, 4]}}}
+{"41": {"chemical_name": {"Indometacin": [1], "1H-Indole-3-acetic acid, 1-(4-chlorobenzoyl)-5-methoxy-2-methyl-": [3, 4]}, "ec_number": {"200-186-5": [1]}, "cid": {"CID3715": [1, 3, 4]}}}
+{"42": {"chemical_name": {"Nicotine": [1], "Pyridine, 3-(1-methyl-2-pyrrolidinyl)-, (S)-": [2, 4], "Pyridine, 3-[(2S)-1-methyl-2-pyrrolidinyl]-": [3]}, "ec_number": {"200-193-3": [1]}, "cid": {"CID89594": [1, 2, 3, 4]}}}
+{"43": {"chemical_name": {"Sodium salicylate": [1], "Benzoic acid, 2-hydroxy-, sodium salt (1:1)": [2, 3], "Benzoic acid, 2-hydroxy-, monosodium salt": [4]}, "ec_number": {"200-198-0": [1]}, "cid": {"CID16760658": [1, 2, 3, 4]}}}
+{"44": {"chemical_name": {"Tetraethylammonium chloride": [1], "Ethanaminium, N,N,N-triethyl-, chloride": [2, 4], "Benzyltrimethylammonium chloride": [1], "Benzenemethanaminium, N,N,N-trimethyl-, chloride": [2], "Isonicotinic acid": [1], "4-Pyridinecarboxylic acid": [2, 3, 4], "Tryptophan": [2, 3], "D2-Tryptophan": [4], "gremlin1": [2], "2,3-Butanedione, monooxime": [2], "Adenosine 5'-(trihydrogen diphosphate), 2'-(dihydrogen phosphate), 5'.fwdarw.5'-ester with 1,4-dihydro-1-.beta.-D-ribofuranosyl-3-pyridinecarboxamide": [2], "Adenosine 5'-(trihydrogen diphosphate), 2'-(dihydrogen phosphate), P'.fwdarw.5'-ester with 1,4-dihydro-1-.beta.-D-ribofuranosyl-3-pyridinecarboxamide": [3], "Cetrimonium bromide": [1], "1-Hexadecanaminium, N,N,N-trimethyl-, bromide": [2], "Androstan-17-one, 3-hydroxy-, (3.alpha.,5.alpha.)-": [2], "L-Lysine": [2]}, "ec_number": {"200-267-5": [1], "200-300-3": [1], "200-228-2": [1], "200-311-3": [1]}, "cid": {"CID5946": [1, 2, 4], "CID5963": [1, 2], "CID5922": [1, 2, 3, 4], "CID1148": [2, 3, 4], "CID6305": [2, 3], "CID6409633": [2], "CID5884": [2, 3], "CID5974": [1, 2], "CID5879": [2], "CID2825511": [2], "CID5962": [2]}}}
+{"45": {"chemical_name": {"Bis(4-hydroxy-N-methylanilinium) sulphate": [1], "Phenol, 4-(methylamino)-, sulfate (2:1) (salt)": [2, 4], "Phenol, 4-(methylamino)-, sulfate (2:1)": [3]}, "ec_number": {"200-237-1": [1]}, "cid": {"CID5930": [1, 2, 3, 4]}}}
+{"46": {"chemical_name": {"Chlorhexidine": [1], "2,4,11,13-Tetraazatetradecanediimidamide, N,N''-bis(4-chlorophenyl)-3,12-diimino-": [2, 4], "2,4,11,13-Tetraazatetradecanediimidamide, N1,N14-bis(4-chlorophenyl)-3,12-diimino-": [3]}, "ec_number": {"200-238-7": [1]}, "cid": {"CID9552079": [1, 2, 3, 4]}}}
+{"47": {"chemical_name": {"p-methoxyphenethylamine": [1]}, "ec_number": {"200-245-5": [1]}, "cid": {"CID4657": [1]}}}
+{"48": {"chemical_name": {"Methylthiouracil": [1], "4(1H)-Pyrimidinone, 2,3-dihydro-6-methyl-2-thioxo-": [2]}, "ec_number": {"200-252-3": [1]}, "cid": {"CID667493": [1, 2]}}}
+{"49": {"chemical_name": {"2,6-diamino-1H-pyrimidin-4-one": [1], "4(3H)-Pyrimidinone, 2,6-diamino-": [2], "4(1H)-Pyrimidinone, 2,6-diamino-": [4]}, "ec_number": {"200-254-4": [1]}, "cid": {"CID135408763": [1, 2, 4]}}}
+{"50": {"chemical_name": {"Carbon tetrachloride": [1], "Methane, tetrachloro-": [2, 4]}, "ec_number": {"200-262-8": [1]}, "cid": {"CID5943": [1, 2, 4]}}}
+{"51": {"chemical_name": {"Bis(tributyltin) oxide": [1], "Distannoxane, 1,1,1,3,3,3-hexabutyl-": [2], "Distannoxane, hexabutyl-": [4]}, "ec_number": {"200-268-0": [1]}, "cid": {"CID16682746": [1, 2, 4]}}}
+{"52": {"chemical_name": {"Benzyltriethylammonium chloride": [1], "Benzenemethanaminium, N,N,N-triethyl-, chloride": [2, 4]}, "ec_number": {"200-270-1": [1]}, "cid": {"CID66133": [1, 2, 4]}}}
+{"53": {"chemical_name": {"Glycine": [1, 2, 4]}, "ec_number": {"200-272-2": [1]}, "cid": {"CID750": [1, 2, 4]}}}
+{"54": {"chemical_name": {"L-alanine": [1], "L-Alanine": [2], "2-Alanine": [4]}, "ec_number": {"200-273-8": [1]}, "cid": {"CID5950": [1, 2, 4]}}}
+{"55": {"chemical_name": {"L-serine": [1], "L-Serine": [2], "2-Serine": [4]}, "ec_number": {"200-274-3": [1]}, "cid": {"CID5951": [1, 2, 4]}}}
+{"56": {"chemical_name": {"Quinidine": [1]}, "ec_number": {"200-279-0": [1]}, "cid": {"CID441074": [1]}}}
+{"57": {"chemical_name": {"Chloramphenicol": [1], "Acetamide, 2,2-dichloro-N-[2-hydroxy-1-(hydroxymethyl)-2-(4-nitrophenyl)ethyl]-, [R-(R,R)]-": [4]}, "ec_number": {"200-287-4": [1]}, "cid": {"CID5959": [1, 4]}}}
+{"58": {"chemical_name": {"Aspartic acid": [1], "L-Aspartic acid": [2], "Acid D,L-aspart": [1], "2-Aspartic acid": [4], "D2-Aspartic acid": [4]}, "ec_number": {"200-291-6": [1], "210-513-3": [1]}, "cid": {"CID5960": [1, 2, 4], "CID424": [1, 2, 4]}}}
+{"59": {"chemical_name": {"Levoglutamide": [1], "L-Glutamine": [2]}, "ec_number": {"200-292-1": [1]}, "cid": {"CID5961": [1, 2]}}}
+{"60": {"chemical_name": {"Glutamic acid": [1], "L-Glutamic acid": [2]}, "ec_number": {"200-293-7": [1]}, "cid": {"CID33032": [1, 2]}}}
+{"61": {"chemical_name": {"Cystine": [1], "L-Cystine": [2]}, "ec_number": {"200-296-3": [1]}, "cid": {"CID67678": [1, 2]}}}
+{"62": {"chemical_name": {"2-imidazol-4-ylethylamine dihydrochloride": [1], "1H-Imidazole-4-ethanamine, dihydrochloride": [2]}, "ec_number": {"200-298-4": [1]}, "cid": {"CID5818": [1, 2]}}}
+{"63": {"chemical_name": {"Allyl isothiocyanate": [1], "1-Propene, 3-isothiocyanato-": [2]}, "ec_number": {"200-309-2": [1]}, "cid": {"CID5971": [1, 2]}}}
+{"64": {"chemical_name": {"Acexamic acid": [1], "Hexanoic acid, 6-(acetylamino)-": [2]}, "ec_number": {"200-310-8": [1]}, "cid": {"CID2005": [1, 2]}}}
+{"65": {"chemical_name": {"Palmitic acid": [1], "Hexadecanoic acid": [2]}, "ec_number": {"200-312-9": [1]}, "cid": {"CID985": [1, 2]}}}
+{"66": {"chemical_name": {"Stearic acid": [1], "Octadecanoic acid": [2]}, "ec_number": {"200-313-4": [1]}, "cid": {"CID5281": [1, 2]}}}
+{"67": {"chemical_name": {"Urea": [1, 2]}, "ec_number": {"200-315-5": [1]}, "cid": {"CID1176": [1, 2]}}}
+{"68": {"chemical_name": {"N,N-dimethylhydrazine": [1], "Hydrazine, 1,1-dimethyl-": [2]}, "ec_number": {"200-316-0": [1]}, "cid": {"CID5976": [1, 2]}}}
+{"69": {"chemical_name": {"Morphine": [1]}, "ec_number": {"200-320-2": [1]}, "cid": {"CID5288826": [1]}}}
+{"70": {"chemical_name": {"Phenytoin": [1]}, "ec_number": {"200-328-6": [1]}, "cid": {"CID1775": [1]}}}
+{"71": {"chemical_name": {"Pethidine": [1]}, "ec_number": {"200-329-1": [1]}, "cid": {"CID4058": [1]}}}
+{"72": {"chemical_name": {"Barbital": [1]}, "ec_number": {"200-331-2": [1]}, "cid": {"CID2294": [1]}}}
+{"73": {"chemical_name": {"Propane-1,2-diol": [1], "1,2-Propanediol": [2]}, "ec_number": {"200-338-0": [1]}, "cid": {"CID1030": [1, 2]}}}
+{"74": {"chemical_name": {"Propiolactone": [1], "2-Oxetanone": [2]}, "ec_number": {"200-340-1": [1]}, "cid": {"CID2365": [1, 2]}}}
+{"75": {"chemical_name": {"Sulfaguanidine": [1]}, "ec_number": {"200-345-9": [1]}, "cid": {"CID5324": [1]}}}
+{"76": {"chemical_name": {"Sulfadimidine": [1]}, "ec_number": {"200-346-4": [1]}, "cid": {"CID5327": [1]}}}
+{"77": {"chemical_name": {"Progesterone": [1]}, "ec_number": {"200-350-6": [1]}, "cid": {"CID5994": [1]}}}
+{"78": {"chemical_name": {"Ergosterol": [1]}, "ec_number": {"200-352-7": [1]}, "cid": {"CID444679": [1]}}}
+{"79": {"chemical_name": {"Cholesterol": [1], "Cholest-5-en-3-ol, (3.beta.)-": [2]}, "ec_number": {"200-353-2": [1]}, "cid": {"CID5997": [1, 2]}}}
+{"80": {"chemical_name": {"Testosterone": [1]}, "ec_number": {"200-370-5": [1]}, "cid": {"CID6013": [1]}}}
+{"81": {"chemical_name": {"Chlordiazepoxide": [1]}, "ec_number": {"200-371-0": [1]}, "cid": {"CID2712": [1]}}}
+{"82": {"chemical_name": {"Menadione": [1], "1,4-Naphthalenedione, 2-methyl-": [2]}, "ec_number": {"200-372-6": [1]}, "cid": {"CID4055": [1, 2]}}}
+{"83": {"chemical_name": {"Desipramine hydrochloride": [1]}, "ec_number": {"200-373-1": [1]}, "cid": {"CID65327": [1]}}}
+{"84": {"chemical_name": {"Theophylline": [1], "1H-Purine-2,6-dione, 3,7-dihydro-1,3-dimethyl-": [2]}, "ec_number": {"200-385-7": [1]}, "cid": {"CID2153": [1, 2]}}}
+{"85": {"chemical_name": {"Pyridoxine hydrochloride": [1]}, "ec_number": {"200-386-2": [1]}, "cid": {"CID6019": [1]}}}
+{"86": {"chemical_name": {"Adenosine": [1]}, "ec_number": {"200-389-9": [1]}, "cid": {"CID60961": [1]}}}
+{"87": {"chemical_name": {"Inosine": [1]}, "ec_number": {"200-390-4": [1]}, "cid": {"CID135398641": [1]}}}
+{"88": {"chemical_name": {"Cefalotin sodium": [1]}, "ec_number": {"200-394-6": [1]}, "cid": {"CID23675321": [1]}}}
+{"89": {"chemical_name": {"4-Pyridinecarboxaldehyde, 3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]-": [2, 3, 4]}, "cid": {"CID1051": [2, 3, 4]}}}
+{"90": {"chemical_name": {"D-Glucose": [2, 3, 4], "Glucose": [4]}, "cid": {"CID5793": [2, 3, 4], "CID107526": [4]}}}
+{"91": {"chemical_name": {".alpha.-D-Glucopyranoside, .beta.-D-fructofuranosyl": [2]}, "cid": {"CID5988": [2], "CID1115": [2]}}}
+{"92": {"chemical_name": {"Benzeneacetic acid, .alpha.,4-dihydroxy-3-methoxy-": [3], "Benzeneacetic acid, \u03b1,4-dihydroxy-3-methoxy-": [4], "Benzeneacetic acid, \u03b1,4-dihydroxy-3-methoxy-, (\u00b1)-": [4]}, "cid": {"CID1245": [3, 4]}}}
+{"93": {"chemical_name": {"Benzeneacetic acid, .alpha.-(hydroxymethyl)- (3-endo)-8-methyl-8-azabicyclo[3.2.1]oct-3-yl ester, sulfate (2:1)": [3]}, "cid": {"CID131632429": [3]}}}
+{"94": {"chemical_name": {"Tryptophan, 5-hydroxy-": [2]}, "cid": {"CID144": [2]}}}
+{"95": {"chemical_name": {"Mercury, (nitrato-.kappa.O)phenyl-": [2]}, "cid": {"CID16682924": [2]}}}
+{"96": {"chemical_name": {"2,4,5,6(1H,3H)-Pyrimidinetetrone, monohydrate": [2]}, "cid": {"CID16723": [2]}}}
+{"97": {"chemical_name": {"Benz[j]aceanthrylene, 1,2-dihydro-3-methyl-": [4]}, "cid": {"CID1674": [4]}}}
+{"98": {"chemical_name": {"L-Glutamic acid, N-[4-[[(2,4-diamino-6-pteridinyl)methyl]amino]benzoyl]-": [3]}, "cid": {"CID169371": [3]}}}
+{"99": {"chemical_name": {"Cyclohexanol, 4-methylene-3-[(2E)-2-[(1R,3aS,7aR)-octahydro-7a-methyl-1-[(1R,2E,4R)-1,4,5-trimethyl-2-hexen-1-yl]-4H-inden-4-ylidene]ethylidene]-, (1S,3Z)-": [2, 3], "9,10-Secoergosta-5,7,10(19),22-tetraen-3-ol, (3\u03b2,5Z,7E,22E)-": [4]}, "cid": {"CID172966651": [2, 3, 4], "CID5280793": [2, 3]}}}
+{"100": {"chemical_name": {"Benzeneacetic acid, .alpha.-(hydroxymethyl)- (3-endo)-8-methyl-8-azabicyclo[3.2.1]oct-3-yl ester": [3]}, "cid": {"CID174174": [3]}}}
+{"101": {"chemical_name": {"1H-Indole-3-acetic acid, 5-hydroxy-": [2]}, "cid": {"CID1826": [2]}}}
+{"102": {"chemical_name": {"Estra-1,3,5(10)-triene-3,17-diol (17\u03b2)-, 3-benzoate": [4]}, "cid": {"CID222757": [4]}}}
+{"103": {"chemical_name": {"Benzamide": [2, 3, 4]}, "cid": {"CID2331": [2, 3, 4]}}}
+{"104": {"chemical_name": {"Benzo[a]pyrene": [3, 4]}, "cid": {"CID2336": [3, 4]}}}
+{"105": {"chemical_name": {"L-Tyrosine, O-(4-hydroxy-3,5-diiodophenyl)-3,5-diiodo-, sodium salt (1:1)": [3]}, "cid": {"CID23666112": [3]}}}
+{"106": {"chemical_name": {"1,4-Butanediol, dimethanesulfonate": [4]}, "cid": {"CID2478": [4]}}}
+{"107": {"chemical_name": {"D-Fructose": [2]}, "cid": {"CID2723872": [2]}}}
+{"108": {"chemical_name": {"Cyclopentanecarboxylic acid, 1-amino-": [3]}, "cid": {"CID2901": [3]}}}
+{"109": {"chemical_name": {"2H-1,3,2-Oxazaphosphorin-2-amine, N,N-bis(2-chloroethyl)tetrahydro-,2-oxide": [4]}, "cid": {"CID2907": [4]}}}
+{"110": {"chemical_name": {"Benzene, 1,1'-(2,2,2-trichloroethylidene)bis[4-chloro-": [3]}, "cid": {"CID3036": [3]}}}
+{"111": {"chemical_name": {"Benzoic acid, 5-(aminosulfonyl)-4-chloro-2-[(2-furanylmethyl)amino]-": [4]}, "cid": {"CID3440": [4]}}}
+{"112": {"chemical_name": {"1-Butanone, 4-[4-(4-chlorophenyl)-4-hydroxy-1-piperidinyl]-1-(4-fluorophenyl)-": [4]}, "cid": {"CID3559": [4]}}}
+{"113": {"chemical_name": {"Hydrazine, (2-phenylethyl)-": [4]}, "cid": {"CID3675": [4]}}}
+{"114": {"chemical_name": {"4-Pyridinecarboxylic acid, hydrazide": [3, 4]}, "cid": {"CID3767": [3, 4]}}}
+{"115": {"chemical_name": {"Ethanamine, 2-chloro-N-(2-chloroethyl)-N-methyl-": [3]}, "cid": {"CID4033": [3]}}}
+{"116": {"chemical_name": {"Benzene, 1-chloro-2-[2,2-dichloro-1-(4-chlorophenyl)ethyl]-": [4]}, "cid": {"CID4211": [4]}}}
+{"117": {"chemical_name": {"1,2-Benzenediol, 4-[(1R)-2-amino-1-hydroxyethyl]-": [4]}, "cid": {"CID439260": [4]}}}
+{"118": {"chemical_name": {"Oxytocin": [4]}, "cid": {"CID439302": [4]}}}
+{"119": {"chemical_name": {"Cinchonan-9-ol, 6'-methoxy-, (9S)-, sulfate (2:1)": [3], "Cinchonan-9-ol, 6'-methoxy-, (9S)-, sulfate (2:1) (salt)": [4]}, "cid": {"CID441326": [3, 4]}}}
+{"120": {"chemical_name": {"1,2-Benzenediol, 4-[(1R)-1-hydroxy-2-(methylamino)ethyl]-, hydrochloride": [4]}, "cid": {"CID441411": [4]}}}
+{"121": {"chemical_name": {"Benzamide, 5-chloro-N-(2-chloro-4-nitrophenyl)-2-hydroxy-": [2]}, "cid": {"CID4477": [2]}}}
+{"122": {"chemical_name": {"Phenylalanine, 4-fluoro-": [3]}, "cid": {"CID4654": [3]}}}
+{"123": {"chemical_name": {"3,5-Pyrazolidinedione, 4-butyl-1,2-diphenyl-": [3, 4]}, "cid": {"CID4781": [3, 4]}}}
+{"124": {"chemical_name": {"Yohimban-16-carboxylic acid, 11,17-dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]-, methyl ester, (3.beta.,16.beta.,17.alpha.,18.beta.,20.alpha.)-": [3]}, "cid": {"CID5770": [3], "CID5052": [3]}}}
+{"125": {"chemical_name": {"Pregn-4-en-18-al, 11,21-dihydroxy-3,20-dioxo-, (11.beta.)-": [3]}, "cid": {"CID5839": [3], "CID521381": [3]}}}
+{"126": {"chemical_name": {"4,8,12-Tetradecatrienoic acid, 5,9,13-trimethyl-, (2E)-3,7-dimethyl-2,6-octadien-1-yl ester, (4E,8E)-": [3]}, "cid": {"CID5282182": [3]}}}
+{"127": {"chemical_name": {"Morphinan-6-ol, 7,8-didehydro-4,5-epoxy-3-methoxy-17-methyl-, (5\u03b1,6\u03b1)-, phosphate (1:1) (salt)": [4]}, "cid": {"CID5359227": [4]}}}
+{"128": {"chemical_name": {"L-Ascorbic acid": [2, 3], "2-Ascorbic acid": [4], "Ascorbic acid": [4]}, "cid": {"CID54670067": [2, 3, 4], "CID54676860": [4]}}}
+{"129": {"chemical_name": {"Carbamic acid, ethyl ester": [2, 3, 4]}, "cid": {"CID5641": [2, 3, 4]}}}
+{"130": {"chemical_name": {"Azirino[2',3':3,4]pyrrolo[1,2-a]indole-4,7-dione, 6-amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methyl-, (1aS,8S,8aR,8bS)-": [3]}, "cid": {"CID5746": [3]}}}
+{"131": {"chemical_name": {"4-Piperidinecarboxylic acid, 1-methyl-4-phenyl-, ethyl ester, hydrochloride": [4]}, "cid": {"CID5750": [4]}}}
+{"132": {"chemical_name": {"Estra-1,3,5(10)-triene-3,16,17-triol, (16\u03b1,17\u03b2)-": [4]}, "cid": {"CID5756": [4]}}}
+{"133": {"chemical_name": {"Benzoic acid, 2,6-dichloro-": [2, 3]}, "cid": {"CID5758": [2, 3]}}}
+{"134": {"chemical_name": {"Benzoic acid, 2,3,6-trichloro-": [3]}, "cid": {"CID5759": [3]}}}
+{"135": {"chemical_name": {"Benzoic acid, 2,4,6-trichloro-": [3]}, "cid": {"CID5764": [3]}}}
+{"136": {"chemical_name": {"Pyridinium, 1-[[(6R,7R)-2-carboxy-8-oxo-7-[[2-(2-thienyl)acetyl]amino]-5-thia-1-azabicyclo[4.2.0]oct-2-en-3-yl]methyl]-, inner salt": [2]}, "cid": {"CID5773": [2]}}}
+{"137": {"chemical_name": {"D-Glucitol": [2, 3, 4]}, "cid": {"CID5780": [2, 3, 4]}}}
+{"138": {"chemical_name": {"2,4,5,6(1H,3H)-Pyrimidinetetrone": [3, 4]}, "cid": {"CID5781": [3, 4]}}}
+{"139": {"chemical_name": {"Benzoic acid, 2,5-dichloro-": [3]}, "cid": {"CID5784": [3]}}}
+{"140": {"chemical_name": {"Benzoic acid, 2,4,5-trichloro-": [3]}, "cid": {"CID5786": [3]}}}
+{"141": {"chemical_name": {"Benzoic acid, 2,4-dichloro-": [2, 3]}, "cid": {"CID5787": [2, 3]}}}
+{"142": {"chemical_name": {"2,4(1H,3H)-Pyrimidinedione, 5-bromo-": [3]}, "cid": {"CID5802": [3]}}}
+{"143": {"chemical_name": {"1,2-Benzenediol, 4-[1-hydroxy-2-[(1-methylethyl)amino]ethyl]-, hydrochloride": [4]}, "cid": {"CID5807": [4]}}}
+{"144": {"chemical_name": {"Benzoic acid, 3,4,5-trichloro-": [3]}, "cid": {"CID5812": [3]}}}
+{"145": {"chemical_name": {"1,2-Benzenediol, 4-[1-hydroxy-2-(methylamino)ethyl]-, (R)-": [2, 4], "1,2-Benzenediol, 4-[(1R)-1-hydroxy-2-(methylamino)ethyl]-": [3]}, "cid": {"CID5816": [2, 3, 4]}}}
+{"146": {"chemical_name": {"Benzoic acid, 3,4-dichloro-": [2, 3]}, "cid": {"CID5817": [2, 3]}}}
+{"147": {"chemical_name": {"Benzenaminium, 3-[[(dimethylamino)carbonyl]oxy]-N,N,N-trimethyl-, methyl sulfate": [4]}, "cid": {"CID5824": [4]}}}
+{"148": {"chemical_name": {"Acetamide, N-(4-methoxyphenyl)-": [3]}, "cid": {"CID5827": [3]}}}
+{"149": {"chemical_name": {"Carbamodithioic acid, N,N-dimethyl-, (dimethylamino)methyl ester": [3]}, "cid": {"CID5830": [3]}}}
+{"150": {"chemical_name": {"Ethanaminium, 2-[(aminocarbonyl)oxy]-N,N,N-trimethyl-, chloride (1:1)": [3]}, "cid": {"CID5831": [3]}}}
+{"151": {"chemical_name": {"19-Norpregn-4-en-20-yn-3-one, 17-(acetyloxy)-, (17\u03b1)-": [4]}, "cid": {"CID5832": [4]}}}
+{"152": {"chemical_name": {"Pregn-4-ene-21-carboxylic acid, 7-(acetylthio)-17-hydroxy-3-oxo-, .gamma.-lactone, (7.alpha.,17.alpha.)-": [3]}, "cid": {"CID5833": [3], "CID6432512": [3]}}}
+{"153": {"chemical_name": {"Pregna-1,4-diene-3,20-dione, 21-(acetyloxy)-11,17-dihydroxy-, (11\u03b2)-": [4]}, "cid": {"CID5834": [4]}}}
+{"154": {"chemical_name": {"Phosphonic acid, P-(2,2,2-trichloro-1-hydroxyethyl)-, dimethyl ester": [2], "Phosphonic acid, (2,2,2-trichloro-1-hydroxyethyl)-, dimethyl ester": [4]}, "cid": {"CID5853": [2, 4]}}}
+{"155": {"chemical_name": {"Phosphorothioic acid, O-[4-[(dimethylamino)sulfonyl]phenyl] O,O-dimethyl ester": [3]}, "cid": {"CID5859": [3]}}}
+{"156": {"chemical_name": {"Pregna-1,4-diene-3,11,20-trione, 17,21-dihydroxy-": [3]}, "cid": {"CID5865": [3]}}}
+{"157": {"chemical_name": {"Adenosine 5'-(trihydrogen diphosphate), 2'-(dihydrogen phosphate), 5'.fwdarw.5'-ester with 3-(aminocarbonyl)-1-.beta.-D-ribofuranosylpyridinium hydroxide, inner salt": [2], "Adenosine 5'-(trihydrogen diphosphate), 2'-(dihydrogen phosphate), P'.fwdarw.5'-ester with 3-(aminocarbonyl)-1-.beta.-D-ribofuranosylpyridinium, inner salt": [3], "Adenosine 5'-(trihydrogen diphosphate), 2'-(dihydrogen phosphate), 5'\u2192'-ester with 3-(aminocarbonyl)-1-\u03b2-D-ribofuranosylpyridinium hydroxide, inner salt": [4]}, "cid": {"CID5885": [2, 3, 4]}}}
+{"158": {"chemical_name": {"10H-Phenothiazine-10-propanamine, N,N-dimethyl-, hydrochloride (1:1)": [3]}, "cid": {"CID5887": [3]}}}
+{"159": {"chemical_name": {"Dibenz[a,h]anthracene": [3]}, "cid": {"CID5889": [3]}}}
+{"160": {"chemical_name": {"Acetamide, N-9H-fluoren-2-yl-": [2, 3]}, "cid": {"CID5897": [2, 3]}}}
+{"161": {"chemical_name": {"4-Thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid, 3,3-dimethyl-7-oxo-6-[(2-phenylacetyl)amino]- (2S,5R,6R)-, compd. with 2-(diethylamino)ethyl 4-aminobenzoate (1:1)": [3]}, "cid": {"CID5903": [3]}}}
+{"162": {"chemical_name": {"Uridine, 2'-deoxy-5-iodo-": [3]}, "cid": {"CID5905": [3]}}}
+{"163": {"chemical_name": {"2(3H)-Furanone, 3-ethyldihydro-4-[(1-methyl-1H-imidazol-5-yl)methyl]-, hydrochloride (1:1), (3S,4R)-": [3]}, "cid": {"CID5909": [3]}}}
+{"164": {"chemical_name": {"5H-Tetrazolo[1,5-a]azepine, 6,7,8,9-tetrahydro-": [3]}, "cid": {"CID5917": [3]}}}
+{"165": {"chemical_name": {"Ethanamine, N-ethyl-N-nitroso-": [3, 4]}, "cid": {"CID5921": [3, 4]}}}
+{"166": {"chemical_name": {"Imidodicarbonimidic diamide, N-phenyl-, hydrochloride (1:1)": [3]}, "cid": {"CID5932": [3]}}}
+{"167": {"chemical_name": {"Ethanamine, 2-chloro-N-(2-chloroethyl)-N-methyl-, hydrochloride": [4]}, "cid": {"CID5935": [4]}}}
+{"168": {"chemical_name": {"Phosphorofluoridic acid, bis(1-methylethyl) ester": [4]}, "cid": {"CID5936": [4]}}}
+{"169": {"chemical_name": {"Ethanamine, 2,2'-dithiobis-, dihydrochloride": [2]}, "cid": {"CID5941": [2]}}}
+{"170": {"chemical_name": {"Adenosine 5'-(tetrahydrogen triphosphate)": [2, 4]}, "cid": {"CID5957": [2, 4]}}}
+{"171": {"chemical_name": {"1-Propanaminium, 3-carboxy-2-hydroxy-N,N,N-trimethyl-, chloride, (.+-.)-": [2]}, "cid": {"CID5970": [2]}}}
+{"172": {"chemical_name": {"3H-Pyrazol-3-one, 4-(dimethylamino)-1,2-dihydro-1,5-dimethyl-2-phenyl-": [2]}, "cid": {"CID6009": [2]}}}
+{"173": {"chemical_name": {"10H-Phenoxarsine, 10,10'-oxybis-": [2]}, "cid": {"CID6017": [2]}}}
+{"174": {"chemical_name": {"Benzeneethanamine, \u03b1-methyl-, (\u03b1S)-, sulfate (2:1)": [4]}, "cid": {"CID6055": [4]}}}
+{"175": {"chemical_name": {"Ethanamine, 2-[4-(2-chloro-1,2-diphenylethenyl)phenoxy]-N,N-diethyl-, 2-hydroxy-1,2,3-propanetricarboxylate": [4]}, "cid": {"CID60974": [4]}}}
+{"176": {"chemical_name": {"Aziridine, 1,1',1''-phosphinylidynetris[2-methyl-": [2]}, "cid": {"CID60976": [2]}}}
+{"177": {"chemical_name": {"DL-Glutamic acid": [2]}, "cid": {"CID611": [2]}}}
+{"178": {"chemical_name": {"Benzeneacetic acid, .alpha.-hydroxy-, (3-endo)-8-methyl-8-azabicyclo[3.2.1]oct-3-yl ester, hydrobromide (1:1)": [3]}, "cid": {"CID6419941": [3]}}}
+{"179": {"chemical_name": {"1,4-Pentanediamine, N4-(7-chloro-4-quinolinyl)-N1,N1-diethyl-, phosphate (1:2)": [4]}, "cid": {"CID83818": [4], "CID64927": [4]}}}
+{"180": {"chemical_name": {"1H-Imidazole-4-ethanamine, phosphate (1:2)": [2, 3]}, "cid": {"CID65513": [2, 3]}}}
+{"181": {"chemical_name": {"2-Pyrimidinamine, 4,6-dichloro-": [4]}, "cid": {"CID65522": [4]}}}
+{"182": {"chemical_name": {"4(1H)-Pyrimidinone, 2,3-dihydro-6-propyl-2-thioxo-": [3]}, "cid": {"CID657298": [3]}}}
+{"183": {"chemical_name": {"8-Azoniabicyclo[3.2.1]octane, 3-(3-hydroxy-1-oxo-2-phenylpropoxy)-8,8-dimethyl-, (3-endo)-, nitrate (1:1)": [3]}, "cid": {"CID657381": [3]}}}
+{"184": {"chemical_name": {"1-Piperidinepropanol, \u03b1-cyclohexyl-\u03b1-phenyl-, hydrochloride": [4]}, "cid": {"CID66007": [4]}}}
+{"185": {"chemical_name": {"Benzoic acid, 2,3,5-trichloro-": [3]}, "cid": {"CID66121": [3]}}}
+{"186": {"chemical_name": {"1,3,6,8-Tetraazatricyclo[4.4.1.13,8]dodecane": [3]}, "cid": {"CID66123": [3]}}}
+{"187": {"chemical_name": {"Benzeneethanamine, N,.alpha.-dimethyl-, hydrochloride (1:1), (.alpha.S)-": [3]}, "cid": {"CID66124": [3]}}}
+{"188": {"chemical_name": {"Ethanaminium, N,N,N-trimethyl-, iodide (1:1)": [3]}, "cid": {"CID66125": [3]}}}
+{"189": {"chemical_name": {"4(1H)-Pyrimidinone, 2-amino-6-hydroxy-": [4]}, "cid": {"CID66131": [4]}}}
+{"190": {"chemical_name": {"6H-Purine-6-thione, 1,7-dihydro-": [4]}, "cid": {"CID667490": [4]}}}
+{"191": {"chemical_name": {"Propanal, 2,3-dihydroxy-": [2], "Propanal, 2,3-dihydroxy-, (\u00b1)-": [4]}, "cid": {"CID751": [2, 4]}}}
+{"192": {"chemical_name": {"1,2,3-Propanetriol, 1-(dihydrogen phosphate)": [2]}, "cid": {"CID754": [2]}}}
+{"193": {"chemical_name": {"1H-Imidazole-5-ethanamine": [3], "1H-Imidazole-4-ethanamine": [4]}, "cid": {"CID774": [3, 4]}}}
+{"194": {"chemical_name": {"2H-1-Benzopyran-6-ol, 3,4-dihydro-2,7,8-trimethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-, (2R)-": [2, 3], "2H-1-Benzopyran-6-ol, 3,4-dihydro-2,7,8-trimethyl-2-(4,8,12-trimethyltridecyl)-, [2R-[2R(4R,8R)]]-": [4]}, "cid": {"CID92729": [2, 3, 4]}}}
+{"195": {"chemical_name": {"2-Propanaminium, N-methyl-N-(1-methylethyl)-N-[2-[(9H-xanthen-9-ylcarbonyl)oxy]ethyl]-, bromide (1:1)": [3]}, "cid": {"CID9279": [3]}}}
+{"196": {"chemical_name": {"2,4,11,13-Tetraazatetradecanediimidamide, N,N''-bis(4-chlorophenyl)-3,12-diimino-, diacetate": [2]}, "cid": {"CID9562059": [2]}}}
