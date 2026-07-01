@@ -4,20 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gic"
-version = "1.0.0"
-description = "A Python library for integrating regulatory chemical lists into a unified global inventory for analysis, comparison, screening and prioritisation."
+version = "1.0.1"
+description = "A Python library for integrating regulatory chemical lists into a unified global inventory for analysis, comparison, and screening."
 requires-python = ">=3.11"
-dependencies = [
-  "openpyxl>=3.1,<4",
-  "pypdf>=6.10.2,<7",
-  "rdkit>=2026.3,<2027",
-]
-authors = [
-  {name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au"},
-]
-maintainers = [
-  {name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au"},
-]
+dependencies = ["openpyxl>=3.1,<4", "pypdf>=6.14.2,<7", "rdkit>=2026.3,<2027"]
+authors = [{ name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au" }]
+maintainers = [{ name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au" }]
 keywords = [
   "chemicals",
   "inventory",
@@ -50,14 +42,7 @@ gic-stats = "gic.workflows.stats:main"
 gic-gremlins = "gic.workflows.gremlins:main"
 
 [dependency-groups]
-dev = [
-  "pip-audit",
-  "pip-licenses",
-  "pyright",
-  "pytest",
-  "pytest-cov",
-  "ruff",
-]
+dev = ["pip-audit", "pip-licenses", "pyright", "pytest", "pytest-cov", "ruff"]
 
 [tool.pytest.ini_options]
 python_files = ["test_*.py"]
@@ -65,9 +50,36 @@ addopts = "-vv --cov=src/gic --cov-report=xml:cov.xml"
 
 [tool.pyright]
 include = ["src"]
-exclude = ["**/.venv", "**/__pycache__"]
+exclude = ["**/.venv", "**/__pycache__", "**/node_modules", "**/.*"]
 typeCheckingMode = "basic"
-pythonVersion = "3.11"
+diagnosticMode = "workspace"
+useLibraryCodeForTypes = true
+pythonVersion = "3.14"
 reportMissingTypeStubs = false
 venvPath = "."
 venv = ".venv"
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.ruff.lint]
+select = [
+  "F",   # pyflakes
+  "E",   # pycodestyle
+  "W",   # pycodestyle
+  "I",   # isort
+  "UP",  # pyupgrade
+  "B",   # flake8-bugbear
+  "T20", # flake8-print
+  "S",   # flake8-bandit
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Allow S101 (use of assert) in test files
+"tests/**/*.py" = ["S101"]
+# Allow print statements in example notebooks
+"examples/**/*.ipynb" = ["T20"]

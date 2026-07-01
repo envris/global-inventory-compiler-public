@@ -1,5 +1,8 @@
 {
-    "editor.rulers": [88,120],
+    "editor.rulers": [
+        88,
+        120
+    ],
     "editor.renderWhitespace": "all",
     "[python]": {
         "editor.tabSize": 4,
@@ -14,6 +17,7 @@
     },
     "cSpell.language": "en-AU",
     "cSpell.words": [
+        "addopts",
         "aicis",
         "aiic",
         "bitvec",
@@ -21,6 +25,7 @@
         "cascc",
         "casrn",
         "casrns",
+        "cheminformatics",
         "chkdig",
         "cids",
         "cscl",
@@ -29,6 +34,7 @@
         "deserialisation",
         "deserialise",
         "deserialised",
+        "dotenv",
         "echa",
         "envris",
         "harmonized",
@@ -37,17 +43,25 @@
         "iecsc",
         "inchi",
         "inchikey",
+        "ipynb",
         "isha",
+        "isort",
         "iupac",
         "kecl",
+        "openpyxl",
         "outputjson",
         "piccs",
         "plast",
         "plastchem",
         "prtr",
         "pubchem",
+        "pycache",
+        "pycodestyle",
+        "pyflakes",
+        "pypdf",
         "pyproject",
         "pytest",
+        "pyupgrade",
         "rdkfp",
         "rdkit",
         "reprotoxic",
@@ -58,10 +72,14 @@
         "subdelimiter",
         "svhc",
         "tanimoto",
+        "tomllib",
         "tsca",
         "tscainv",
         "unmappable",
-        "vect"
+        "urllib",
+        "vect",
+        "venv",
+        "vulns",
     ],
     "python.testing.pytestArgs": [
         "tests"
@@ -69,7 +87,4 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-    "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.diagnosticMode": "workspace",
-    "python.analysis.useLibraryCodeForTypes": true
 }

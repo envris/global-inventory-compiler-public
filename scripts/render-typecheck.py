@@ -1,4 +1,4 @@
-"""Render pyright --outputjson output as GitHub Flavored Markdown.
+"""Render pyright --outputjson output as GitHub Flavoured Markdown.
 
 Used by the CI typecheck job to surface findings in PR comments and the
 workflow summary.

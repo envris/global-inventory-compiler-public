@@ -1,4 +1,4 @@
-"""Render pip-audit and pip-licenses JSON output as GitHub Flavored Markdown.
+"""Render pip-audit and pip-licenses JSON output as GitHub Flavoured Markdown.
 
 Used by the CI and scheduled audit workflows to surface dependency
 findings in PR comments, workflow summaries, and tracking issues. The
