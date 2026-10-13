@@ -214,6 +214,27 @@ def test_merge_rows_by_field(data_frame: DataFrame):
     assert len(data_frame) == 5
 
 
+def test_remove_empty_rows(data_frame_2: DataFrame):
+    """Test removing rows that are empty for a field."""
+    assert len(data_frame_2) == 4
+    # Empty first row
+    data_frame_2[0].remove_field("ghs_code")
+    data_frame_2[0].remove_field("chemical_name")
+    data_frame_2[0].remove_field("cid")
+    data_frame_2.remove_empty_rows()
+    assert len(data_frame_2) == 3
+
+
+def test_remove_unidentified_rows(data_frame_2: DataFrame):
+    """Test removing rows that are not identified."""
+    assert len(data_frame_2) == 4
+    # Remove identifiers from first row
+    data_frame_2[0].remove_field("chemical_name")
+    data_frame_2[0].remove_field("cid")
+    data_frame_2.remove_unidentified_rows()
+    assert len(data_frame_2) == 3
+
+
 def test_to_csv(data_frame: DataFrame, tmpdir):
     """Test saving to CSV."""
     file_path = tmpdir.join("data_frame.csv")

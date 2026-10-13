@@ -216,6 +216,22 @@ class DataFrame:
             new_data.append(row)
         self.__data = new_data + nulls
 
+    def remove_empty_rows(self) -> None:
+        """Remove rows that have no data."""
+        new_data = []
+        for row in self.__data:
+            if not row.is_empty():
+                new_data.append(row)
+        self.__data = new_data
+
+    def remove_unidentified_rows(self) -> None:
+        """Remove rows that have no identifier values."""
+        new_data = []
+        for row in self.__data:
+            if row.is_identified():
+                new_data.append(row)
+        self.__data = new_data
+
     def to_jsonl(self, file_path: str) -> None:
         """Write data as a JSONL file."""
         with open(file_path, "w", newline="", encoding="utf-8") as f:

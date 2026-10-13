@@ -20,5 +20,10 @@ def remove_gremlins(g_data: GremlinsData, df: DataFrame) -> list[str]:
                 removed_gremlins.add(identifier)
             else:
                 filtered_ids.append(identifier)
-        row.set_values("chemical_name", filtered_ids)
+        # Delete filed if no names remain, otherwise set the filtered names
+        if filtered_ids:
+            row.set_values("chemical_name", filtered_ids)
+        else:
+            row.remove_field("chemical_name")
+    df.remove_unidentified_rows()
     return list(removed_gremlins)

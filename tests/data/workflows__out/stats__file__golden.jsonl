@@ -4,12 +4,12 @@ Unique chemical_names,343,100.0
 Unique cids,232,100.0
 Unique ec_numbers,101,100.0
 Substances with one chemical_name,121,61.7
-Substances with multiple chemical_names,25,12.8
+Substances with multiple chemical_names,75,38.3
 Substances with one cid,181,92.3
-Substances with multiple cids,3,1.5
-Substances without ec_numbers,108,55.1
+Substances with multiple cids,15,7.7
+Substances without ec_number,108,55.1
 Substances with one ec_number,84,42.9
-Substances with multiple ec_numbers,3,1.5
+Substances with multiple ec_numbers,4,2.0
 Substances with only chemical_names,0,0.0
 Substances with only cids,0,0.0
 Substances with only ec_numbers,0,0.0

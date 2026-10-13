@@ -89,16 +89,16 @@ def identifiers_per_substance_stats(
         num_identifiers = inventory.get_identifiers(identifier_field)
         if not num_identifiers:
             continue
-        for count, operator, label in [
-            (0, "eq", "without"),
-            (1, "eq", "with one"),
-            (2, "gt", "with multiple"),
+        for count, operator, label, is_plural in [
+            (0, "eq", "without", False),
+            (1, "eq", "with one", False),
+            (1, "gt", "with multiple", True),
         ]:
             num = get_num_identifiers(inventory, identifier_field, count, operator)
             percent = (num / num_substances) * 100 if num_substances else 0.0
             if num == 0:
                 continue
-            plural = identifier_field + "s" if count != 1 else identifier_field
+            plural = identifier_field + "s" if is_plural else identifier_field
             stat = StatsData(
                 name=f"Substances {label} {plural}", value=num, percent=percent
             )

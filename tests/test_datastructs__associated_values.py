@@ -256,6 +256,17 @@ def test_set_values():
     assert av.chemical_name == ["Acetylsalicylic acid"]
 
 
+def test_set_values_empty_list():
+    """Test that setting values to an empty list raises an error."""
+    data_dict = {
+        "chemical_name": ["Aspirin"],
+        "cid": ["CID2244"],
+    }
+    av = AssociatedValues(data_dict)
+    with pytest.raises(ValueError):
+        av.set_values("chemical_name", [])
+
+
 def test_get_fields():
     """Test getting field names."""
     data_dict = {
@@ -384,6 +395,22 @@ def test_is_identified():
     av_no_identifiers = AssociatedValues({"rdk_mol": ["CC(=O)Oc1ccccc1C(=O)O"]})
     av_no_identifiers.clean()
     assert av_no_identifiers.is_identified() is False
+
+
+def test_is_empty():
+    """Test checking if the class is empty."""
+    data_dict = {
+        "chemical_name": ["Aspirin"],
+        "cid": ["CID2244"],
+    }
+    av = AssociatedValues(data_dict)
+    assert av.is_empty() is False
+    av.remove_field("chemical_name")
+    av.remove_field("cid")
+    assert av.is_empty() is True
+    av.set_values("chemical_name", ["Aspirin"])
+    av.chemical_name = []  # Manually empty the field
+    assert av.is_empty() is True
 
 
 def test_merge_without_clean():

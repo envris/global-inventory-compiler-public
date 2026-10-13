@@ -159,6 +159,8 @@ class AssociatedValues:
     def set_values(self, field_name: str, values: list) -> None:
         """Deserialise, validate, and set values for a field."""
         enforce_type(values, "values", list)
+        if not values:
+            raise ValueError("Cannot set empty values for a field")
         good_values = []
         for value in values:
             value = fields.patch(field_name, value)
@@ -190,6 +192,12 @@ class AssociatedValues:
                 values = combine_lists(getattr(self, field_name), values)
             setattr(self, field_name, values)
         self.is_clean = should_preserve_clean
+
+    def is_empty(self) -> bool:
+        """Object contains no fields or field values."""
+        if not self.__field_names():
+            return True
+        return all(not getattr(self, field_name) for field_name in self.__field_names())
 
     def is_identified(self) -> bool:
         """Data has at least one value assigned to an identifier field."""
