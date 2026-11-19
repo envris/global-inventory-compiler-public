@@ -7,7 +7,7 @@ from .....datastructs.utils.validation import IDENTIFIER_FIELDS
 from ..structs import StatsData
 
 
-def get_num_identifiers(
+def _get_num_identifiers(
     inventory: Inventory, identifier_type: str, count: int, operator: str
 ) -> int:
     """Get count of substances with a specific number identifier of type."""
@@ -26,7 +26,7 @@ def get_num_identifiers(
     return num_substances
 
 
-def get_num_only_identifier(inventory: Inventory, identifier_type: str) -> int:
+def _get_num_only_identifier(inventory: Inventory, identifier_type: str) -> int:
     """Get count of substances with only a specific type of identifier."""
     other_idfs = [idf for idf in IDENTIFIER_FIELDS if idf != identifier_type]
     count = 0
@@ -94,7 +94,7 @@ def identifiers_per_substance_stats(
             (1, "eq", "with one", False),
             (1, "gt", "with multiple", True),
         ]:
-            num = get_num_identifiers(inventory, identifier_field, count, operator)
+            num = _get_num_identifiers(inventory, identifier_field, count, operator)
             percent = (num / num_substances) * 100 if num_substances else 0.0
             if num == 0:
                 continue
@@ -122,7 +122,7 @@ def only_identifier_stats(
         num_identifiers = inventory.get_identifiers(identifier_field)
         if not num_identifiers:
             continue
-        num = get_num_only_identifier(inventory, identifier_field)
+        num = _get_num_only_identifier(inventory, identifier_field)
         percent = (num / num_substances) * 100 if num_substances else 0.0
         stat = StatsData(
             name=f"Substances with only {identifier_field}s", value=num, percent=percent

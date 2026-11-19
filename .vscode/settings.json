@@ -8,7 +8,7 @@
         "editor.tabSize": 4,
         "editor.detectIndentation": false,
         "editor.insertSpaces": true,
-        "editor.formatOnSave": false,
+        "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll": "explicit",
             "source.organizeImports.ruff": "explicit"
@@ -30,6 +30,7 @@
         "cids",
         "cscl",
         "csvfile",
+        "datas",
         "datastructs",
         "deserialisation",
         "deserialise",
@@ -87,4 +88,5 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.useEnvFile": true,
 }

@@ -28,6 +28,14 @@ def parse_args(args: list[str]) -> argparse.Namespace:
         help="Path to write the statistics file (required).",
     )
     parser.add_argument(
+        "-e",
+        "--exclude_lists",
+        type=str,
+        default=[],
+        nargs="+",
+        help="List tags to exclude from list count analysis.",
+    )
+    parser.add_argument(
         "-l",
         "--log",
         type=str,
@@ -48,7 +56,7 @@ def main(args: list[str] | None = None) -> None:
 
     # Calculate statistics
     all_stats: list[StatsData] = []
-    analytics = get_all_methods()
+    analytics = get_all_methods(set(parsed.exclude_lists))
     for method in analytics:
         stats_datas = method(inventory, logger)
         all_stats.extend(stats_datas)

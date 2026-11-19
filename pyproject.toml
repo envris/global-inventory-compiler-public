@@ -4,14 +4,14 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gic"
-version = "1.0.3"
+version = "1.0.4"
 description = "A Python library for integrating regulatory chemical lists into a unified global inventory for analysis, comparison, and screening."
 requires-python = ">=3.11"
 dependencies = [
   "openpyxl>=3.1.5,<4",
-  "pillow>=12.3.0,<13",
-  "pypdf>=6.20.0,<7",
-  "rdkit>=2026.9.1,<2027"
+  "pillow>=13.0.0,<14",
+  "pypdf>=7.1.0,<8",
+  "rdkit>=2026.9.2,<2027"
 ]
 authors = [{ name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au" }]
 maintainers = [{ name = "Daniel Weber", email = "daniel.weber@dcceew.gov.au" }]

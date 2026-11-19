@@ -13,6 +13,7 @@ Substances with multiple ec_numbers,4,2.0
 Substances with only chemical_names,0,0.0
 Substances with only cids,0,0.0
 Substances with only ec_numbers,0,0.0
+Substances in no lists,0,0.0
 Substances in exactly one list,103,52.6
 Substances in exactly two lists,49,25.0
 Substances in exactly three lists,27,13.8
